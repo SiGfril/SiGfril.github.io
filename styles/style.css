@@ -1,0 +1,93 @@
+style
+        body {
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-family: cursive;
+            color: rgba(103, 9, 245, 0.388);
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: rgb(189, 183, 3);
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+
+        b {   
+            font-weight: bold;
+        }
+
+        div {
+            font-style: italic;
+            color:rgb(3, 234, 111)
+        }
+
+        table {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 100%;
+            border-collapse: separate;
+            
+        }
+
+        th, td {
+            border: 2px solid #007BFF;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        th {
+            background-color: #007BFF;
+            color: rgb(8, 237, 214);
+            font-family: cursive;
+        }
+
+        td {
+            color:rgb(196, 3, 234);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .moving-text {
+            animation: move 2s infinite;
+        }
+
+      @keyframes move{
+        0% {
+            transform: translateX(0)
+        }
+        50% {
+            transform: translateX(10px)
+        }
+        100% {
+            transform: translateX(0)
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        img{
+            width: 90%
+        }
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 17px;
+        }
+    }
+
+    
+    
+
+    
+
